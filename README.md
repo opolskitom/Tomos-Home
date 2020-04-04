@@ -1,2 +1,2 @@
 # Tomos-Home
-My personal website for testing.
+My test site for testing and creating different aspects for eventually, my own personal website.
