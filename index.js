@@ -1,4 +1,13 @@
 var soundEnabled = true;
+var $page = $('.page');
+
+$('.menu-toggle').click(function() {
+  $page.toggleClass('real');
+})
+
+$('.content').click(function() {
+  $page.removeClass('real');
+})
 
 //Sound Button
 $(".unpressed").children(".fa-volume-mute.sound-icon").hide();
