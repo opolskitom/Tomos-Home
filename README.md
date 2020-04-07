@@ -5,7 +5,7 @@ Things to add:
 ```
 Nav bar
 Page Scroller
-Proper Layout
+Proper Layout (Mobile as well)
 Better ideas
 
 Pages (or add to Home Page)
