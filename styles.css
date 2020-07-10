@@ -100,6 +100,7 @@ h2 {
 }
 p {
   text-align: right;
+  margin-top: 10px;
 }
 
 /* Center Horizontal Vertical */
@@ -144,6 +145,8 @@ p {
   background-color: #1f2f45;
   z-index: 10;
 }
+
+
 
 /* NavBar Toggler Properties */
 .menu-toggle {
@@ -319,15 +322,17 @@ p {
 .title-section {
   position: relative;
   height: 120px;
-  margin-top: 5rem;
+  margin-top: 80px;
   margin-left: 10%;
+  margin-right: 10%;
   padding: 0;
 }
 
-.about-section {
+.card-section {
   position: relative;
   margin: 0 10%;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .item-card {
@@ -340,11 +345,25 @@ p {
   position: relative;
   margin-top: 20px;
 }
+
 .card-text {
   position: relative;
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
+  margin-top: 20px;
+}
+
+/*Sub sections*/
+.description {
+  position: relative;
+  margin: 0 10%;
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.page-bottom {
+  position: relative;
+  height: 40px;
 }
 
 .surprise-text {

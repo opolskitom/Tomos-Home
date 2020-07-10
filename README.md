@@ -1,15 +1,23 @@
 # Tomo's-Home
 My test site for testing and creating different aspects for eventually, my own personal website.
 
+#Developments
 Things to add:
 ```
-Nav bar
-Page Scroller
-Proper Layout (Mobile as well)
-Better ideas
+NavBar✔️
+Page Scroller ✔️
+Proper Layout (Mobile as well) ✔️❌ (Satisfied with mobile for now)
+Pages (or add to Home Page) ✔️
+About Page ❌
+Projects Page ❌
+Calendar Page ❌
+Support Page ❌
+Socials Page ❌
+Contact Page ❌
+Custom Scrollbar ❌
 
-Pages (or add to Home Page)
-About Page
-Projects Page
-Contact Page
+NavBar
+Simple Site View ❌
+Site GitHub ✔️
+Business ❌
 ```
