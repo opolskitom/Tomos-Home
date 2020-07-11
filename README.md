@@ -8,16 +8,16 @@ NavBar✔️
 Page Scroller ✔️
 Proper Layout (Mobile as well) ✔️❌ (Satisfied with mobile for now)
 Pages (or add to Home Page) ✔️
-About Page ❌
-Projects Page ❌
-Calendar Page ❌
-Support Page ❌
-Socials Page ❌
-Contact Page ❌
+About Section ✔️
+Projects Section ❌
+Calendar Section ❌
+Support Section ❌
+Socials Section ❌
+Contact Section ❌
 Custom Scrollbar ❌
 
-NavBar
+NavBar Items
 Simple Site View ❌
 Site GitHub ✔️
-Business ❌
+Business ✔️
 ```

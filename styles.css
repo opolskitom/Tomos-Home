@@ -285,6 +285,12 @@ p {
   border: 2px solid #273a54;
 }
 
+.neu-shadow-img {
+  box-shadow: 0px -5px 15px rgba(255, 255, 255, 0.05),
+    0px 15px 25px rgba(0, 0, 0, 0.4);
+  border: 2px solid #273a54;
+}
+
 .box-text {
   color: #d6d6d6;
   font-size: 20px;
@@ -355,15 +361,32 @@ p {
 
 /*Sub sections*/
 .description {
+  margin: 0 12%;
   position: relative;
-  margin: 0 10%;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+.description-heading {
+  margin-right: 5%;
+}
+
+.tomo-img {
+  position: relative;
+  float: left;
+  width: 15%;
+  min-width: 150px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0px -5px 15px rgba(255, 255, 255, 0.05),
+  0px 15px 25px rgba(0, 0, 0, 0.4);
+  border: 2px solid #273a54;
+}
+
 .page-bottom {
   position: relative;
-  height: 40px;
+  height: 110px;
 }
 
 .surprise-text {
