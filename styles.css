@@ -98,7 +98,7 @@ h2 {
     0px 10px 15px rgba(0, 0, 0, 0.4);
   z-index: 5;
 }
-p {
+.rightp {
   text-align: right;
   margin-top: 10px;
 }
@@ -341,7 +341,7 @@ p {
   padding-bottom: 30px;
 }
 
-.item-card {
+.main-card {
   text-align: center;
   padding: 18px 0;
   margin: 25px 10px 25px;
@@ -352,7 +352,7 @@ p {
   margin-top: 20px;
 }
 
-.card-text {
+.card-desc {
   position: relative;
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
@@ -361,7 +361,7 @@ p {
 
 /*Sub sections*/
 .description {
-  margin: 0 12%;
+  margin: 3% 12%;
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -374,14 +374,38 @@ p {
 .tomo-img {
   position: relative;
   float: left;
-  width: 15%;
+  width: 14%;
   min-width: 150px;
   border-radius: 50%;
   margin-right: 15px;
   margin-bottom: 15px;
-  box-shadow: 0px -5px 15px rgba(255, 255, 255, 0.05),
-  0px 15px 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px -5px 10px rgba(255, 255, 255, 0.05),
+  0px 10px 20px rgba(0, 0, 0, 0.4);
   border: 2px solid #273a54;
+}
+
+.project-card-holder {
+  margin: 25px 0;
+}
+
+.left-pc {
+  margin-left: 15px;
+}
+.right-pc {
+  margin-right: 15px;
+}
+
+.project-card {
+  background: #1f2f45;
+  box-shadow: 0px -5px 10px rgba(255, 255, 255, 0.04),
+    0px 15px 20px rgba(0, 0, 0, 0.4);
+  border: 3px solid #1927394;
+}
+
+.project-card:hover {
+  background: #253852;
+  box-shadow: 0px -5px 15px rgba(255, 255, 255, 0.05),
+    0px 15px 25px rgba(0, 0, 0, 0.4);
 }
 
 .page-bottom {

@@ -1,10 +1,12 @@
 var $page = $('.page');
 var $about = $(".about-section");
 var $projects = $(".projects-section");
+var $socials = $(".socials-section");
 var $contact = $(".contact-section");
 
 $about.hide();
 $projects.hide();
+$socials.hide();
 $contact.hide();
 
 //keyboard events
@@ -35,6 +37,8 @@ function expandSection(obj) {
     $about.fadeToggle(1000);
   } else if (obj.hasClass("projects")) {
     $projects.fadeToggle(1000);
+  }  else if (obj.hasClass("socials")) {
+    $socials.fadeToggle(1000);
   } else if (obj.hasClass("contact")) {
     $contact.fadeToggle(1000);
   }
