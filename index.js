@@ -9,6 +9,11 @@ $projects.hide();
 $socials.hide();
 $contact.hide();
 
+$(".content-inner").overlayScrollbars(
+{
+    className: "os-theme-round-light"
+})
+
 //keyboard events
 document.addEventListener("keydown", function(e) {
   keyboardLetter = e.key;
