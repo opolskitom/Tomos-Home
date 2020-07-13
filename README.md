@@ -13,7 +13,7 @@ Projects Section ✔️❌ (To add projects)
 Calendar Section ❌
 Support Section ❌
 Socials Section ✔️
-Contact Section ❌
+Contact Section ✔️
 Custom Scrollbar ✔️
 Get Feedback ❌
 

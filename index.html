@@ -6,7 +6,7 @@
   <title>Tomo's Home</title>
   <script src="https://kit.fontawesome.com/ef7c922896.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="OverlayScrollbars-master\css\OverlayScrollbars.css">
+  <link rel="stylesheet" href="OverlayScrollbars-master\css\OverlayScrollbars.min.css">
   <link rel="stylesheet" href="css/scrollbar-theme.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -173,7 +173,7 @@
                 <div class="row">
                   <div class="col-md-4 project-card-holder">
                     <div class="card mb-2 project-card">
-                      <img class="card-img-top" src="images/tindog.png" alt="tindog-img">
+                      <img class="card-img-top" src="images/tindog.PNG" alt="tindog-img">
                       <div class="card-body">
                         <h4 class="card-title">TinDog</h4>
                         <p class="card-text">Simple BootStrap mockup Tinder website which was part of the full-stack developer course I took on Udemy to learn proper
@@ -254,14 +254,27 @@
 
         <section class="description contact-section">
           <h2>contact</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et quam nisl. Phasellus ornare egestas neque, vitae viverra libero sollicitudin nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-            egestas. Aenean diam dui, hendrerit non arcu ac, tristique luctus tellus. In pellentesque finibus porta. In eget eros dignissim, euismod urna et, consequat justo. Maecenas ac lobortis neque. Maecenas sodales congue tellus, a suscipit
-            purus elementum id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi dolor purus, imperdiet a accumsan in, blandit sagittis lacus. Donec viverra rutrum blandit. Aliquam erat volutpat.
-            Quisque ullamcorper mauris nisi, in congue nisl posuere vel. Phasellus maximus interdum eleifend. Aenean in vulputate ex, id posuere ipsum. Nam vel nunc justo.
-          </p>
-          <p>Donec consectetur ac tortor sed luctus. In hac habitasse platea dictumst. Fusce quam nisi, porttitor eget nisi id, aliquet ultricies turpis. Sed varius auctor nibh et bibendum. Sed sollicitudin aliquet ultricies. Nam sollicitudin rutrum
-            euismod. Ut nunc sapien, volutpat sed viverra et, imperdiet at arcu. Nulla imperdiet lobortis pharetra. Integer rhoncus metus non dignissim sodales. Phasellus ornare nisi nec quam viverra congue. In commodo ex id nibh elementum finibus.
-            In eros risus, elementum vitae maximus vel, pulvinar in libero. Maecenas rutrum ligula vitae facilisis scelerisque.</p>
+          <form action="https://formspree.io/moqkpewb" method="POST" class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address*</label>
+              <input type="email" class="form-control" name="_replyto" id="validationCustom01" placeholder="name@example.com" required>
+              <div class="invalid-feedback">
+                Please enter a e-mail address.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message*</label>
+              <textarea class="form-control" name="message" placeholder="Hello Thomas,
+What is a good time for you to be available to contact?
+
+Thank you,
+Name from Company" id="validationCustom02" rows="5" required></textarea>
+              <div class="invalid-feedback">
+                Please enter a message.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
         </section>
 
         <div class="page-bottom"></div>
