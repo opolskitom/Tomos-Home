@@ -10,8 +10,8 @@ Proper Layout (Mobile as well) ✔️❌ (Satisfied with mobile for now)
 Pages (or add to Home Page) ✔️
 About Section ✔️
 Projects Section ✔️ (To-add: projects expand)
-Calendar Section ❌
 Support Section ❌
+Jobs Section ❌
 Socials Section ✔️
 Contact Section ✔️
 Custom Scrollbar ✔️
