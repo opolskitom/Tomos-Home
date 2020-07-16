@@ -1,11 +1,15 @@
 var $page = $('.page');
 var $about = $(".about-section");
 var $projects = $(".projects-section");
+var $support = $(".support-section");
+var $jobs = $(".jobs-section");
 var $socials = $(".socials-section");
 var $contact = $(".contact-section");
 
 $about.hide();
 $projects.hide();
+$support.hide();
+$jobs.hide();
 $socials.hide();
 $contact.hide();
 
