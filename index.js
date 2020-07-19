@@ -46,6 +46,10 @@ function expandSection(obj) {
     $about.fadeToggle(1000);
   } else if (obj.hasClass("projects")) {
     $projects.fadeToggle(1000);
+  } else if (obj.hasClass("support")) {
+    $support.fadeToggle(1000);
+  } else if (obj.hasClass("jobs")) {
+    $jobs.fadeToggle(1000);
   } else if (obj.hasClass("socials")) {
     $socials.fadeToggle(1000);
   } else if (obj.hasClass("contact")) {
