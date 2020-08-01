@@ -137,7 +137,7 @@
 
         <section class="description projects-section">
           <h2 class="description-heading">projects</h2>
-          <p class="rightp description-text">These are some of the projects I have worked on in my time during college and independent studying, and most can be expanded to learn more by clicking on the body text (soon).</p>
+          <p class="rightp description-text">These are some of the projects I have worked on in my time during college and independent studying, and most can be expanded to learn more by clicking on the body text (currently unfinished!).</p>
           <!--Carousel Wrapper-->
           <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="true" data-interval="10000">
             <!--Slides-->
@@ -146,18 +146,18 @@
               <div class="carousel-item active">
                 <div class="row">
                   <div class="col-md-4 project-card-holder">
-                    <div class="card mb-2 project-card">
+                    <div class="card mb-2 project-card" data-toggle="modal" data-target="#eWalletModal">
                       <img class="card-img-top" src="images/proewallet.PNG" alt="pro-ewallet-img">
                       <div class="card-body">
                         <h4 class="card-title">Pro e-Wallet</h4>
                         <p class="card-text">Client-based Android application which targets sales managers to allow them to track their agent's transactions
-                          and monitor the flow of expenses. </p>
+                          and monitor the flow of expenses.</p>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-md-4 project-card-holder">
-                    <div class="card mb-2 project-card">
+                    <div class="card mb-2 project-card" data-toggle="modal" data-target="#newsLetterModal">
                       <img class="card-img-top" src="images/newsletter.PNG" alt="newsletter-img">
                       <div class="card-body">
                         <h4 class="card-title">Personal Newsletter</h4>
@@ -168,7 +168,7 @@
                   </div>
 
                   <div class="col-md-4 project-card-holder">
-                    <div class="card mb-2 project-card">
+                    <div class="card mb-2 project-card" data-toggle="modal" data-target="#qrScraperModal">
                       <img class="card-img-top" src="images/qr-scraper.PNG" alt="qr-scraper-img">
                       <div class="card-body">
                         <h4 class="card-title">YouTube QR Scraper</h4>
@@ -245,9 +245,10 @@
 
         <section class="description jobs-section">
           <h2 class="description-heading">jobs</h2>
-            <a class="stinky-a-tag" href="https://opolskitom.github.io/resume/">
-                <i class="fas fa-file-alt fa-2x"></i><h3 class="d-inline"> Resume</h3>
-            </a>
+          <a class="stinky-a-tag" href="https://opolskitom.github.io/resume/">
+            <i class="fas fa-file-alt fa-2x"></i>
+            <h3 class="d-inline"> Resume</h3>
+          </a>
         </section>
 
         <section class="description socials-section">
@@ -317,6 +318,148 @@ Name from Company" id="validationCustom02" rows="5" required></textarea>
       </div>
 
     </main>
+  </div>
+
+  <!-- eWallet Modal -->
+  <div class="modal fade" id="eWalletModal" tabindex="-1" role="dialog" aria-labelledby="eWalletLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-t" id="eWalletLabel">Project: Pro e-Wallet</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="eWalletIndicators" class="carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target="#eWalletIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#eWalletIndicators" data-slide-to="1"></li>
+              <li data-target="#eWalletIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://picsum.photos/id/1/900/600" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/id/2/900/600" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/id/3/900/600" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#eWalletIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#eWalletIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p class="modal-p">Client-based Android application which targets sales managers to allow them to track their agent's transactions
+            and monitor the flow of expenses.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Newsletter Modal -->
+  <div class="modal fade" id="newsLetterModal" tabindex="-1" role="dialog" aria-labelledby="newsLetterLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-t" id="newsLetterLabel">Project: Personal Newsletter</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="newsLetterIndicators" class="carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target="#newsLetterIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#newsLetterIndicators" data-slide-to="1"></li>
+              <li data-target="#newsLetterIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://picsum.photos/id/4/900/600" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/id/5/900/600" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/id/6/900/600" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#newsLetterIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#newsLetterIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p class="modal-p">A personal newsletter subscription webpage that allows users to sign up to receive newsletters from my personal
+            MailChimp account, and deployed on Heroku.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- qrScraper Modal -->
+  <div class="modal fade" id="qrScraperModal" tabindex="-1" role="dialog" aria-labelledby="qrScraperLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-t" id="qrScraperLabel">Project: YouTube QR Scraper</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="qrScraperIndicators" class="carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target="#qrScraperIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#qrScraperIndicators" data-slide-to="1"></li>
+              <li data-target="#qrScraperIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://picsum.photos/id/7/900/600" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/id/8/900/600" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://picsum.photos/id/9/900/600" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#qrScraperIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#qrScraperIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <p class="modal-p">Python GUI application that takes in a YouTube video link or
+            search link, parses it, and gets all QR data from the video(s) using pyQt5
+            and OpenCV.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
 
 

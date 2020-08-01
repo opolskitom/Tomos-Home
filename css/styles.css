@@ -414,9 +414,18 @@ h2 {
     0px 15px 25px rgba(0, 0, 0, 0.4);
 }
 
+.modal-t {
+  color: #121212;
+}
+.modal-p {
+  padding-top: 12px;
+  color: #121212;
+  text-align: center;
+}
+
 /* Jobs */
 .job-text {
-  
+
 }
 
 /* Social */

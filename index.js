@@ -1,11 +1,12 @@
-var $page = $('.page');
-var $about = $(".about-section");
-var $projects = $(".projects-section");
-var $support = $(".support-section");
-var $jobs = $(".jobs-section");
-var $socials = $(".socials-section");
-var $contact = $(".contact-section");
+const $page = $('.page');
+const $about = $(".about-section");
+const $projects = $(".projects-section");
+const $support = $(".support-section");
+const $jobs = $(".jobs-section");
+const $socials = $(".socials-section");
+const $contact = $(".contact-section");
 
+//hide sections
 $about.hide();
 $projects.hide();
 $support.hide();
@@ -13,11 +14,13 @@ $jobs.hide();
 $socials.hide();
 $contact.hide();
 
+//create scrollbar
 $(".content-inner").overlayScrollbars({
   className: "os-theme-round-light"
 })
 
 //keyboard events
+//escape to open nav
 document.addEventListener("keydown", function(e) {
   keyboardLetter = e.key;
   if (keyboardLetter === "Escape") {
@@ -34,10 +37,10 @@ $('.content').click(function() {
   $page.removeClass("real");
 })
 
+//card button click
 $(".unpressed").click(function() {
   $(this).toggleClass("pressed").toggleClass("unpressed");
   expandSection($(this));
-
 });
 
 //expand sections
@@ -55,7 +58,6 @@ function expandSection(obj) {
 
 //form validation
 validateForm();
-
 function validateForm() {
   'use strict';
   window.addEventListener('load', function() {
