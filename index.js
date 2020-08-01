@@ -42,18 +42,14 @@ $(".unpressed").click(function() {
 
 //expand sections
 function expandSection(obj) {
-  if (obj.hasClass("about")) {
-    $about.fadeToggle(1000);
-  } else if (obj.hasClass("projects")) {
-    $projects.fadeToggle(1000);
-  } else if (obj.hasClass("support")) {
-    $support.fadeToggle(1000);
-  } else if (obj.hasClass("jobs")) {
-    $jobs.fadeToggle(1000);
-  } else if (obj.hasClass("socials")) {
-    $socials.fadeToggle(1000);
-  } else if (obj.hasClass("contact")) {
-    $contact.fadeToggle(1000);
+  var section = $(obj).attr('id');
+  switch(section) {
+    case "about":  $about.fadeToggle(1000); break;
+    case "projects": $projects.fadeToggle(1000); break;
+    case "support":  $support.fadeToggle(1000); break;
+    case "jobs":  $jobs.fadeToggle(1000); break;
+    case "socials":  $socials.fadeToggle(1000); break;
+    case "contact":  $contact.fadeToggle(1000); break;
   }
 };
 
