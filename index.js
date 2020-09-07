@@ -20,40 +20,56 @@ $(document).ready(() => {
     className: "os-theme-round-light"
   })
 
-  //keyboard events
-  //escape to open nav
+  //keyboard shortcuts
   document.addEventListener("keydown", function (e) {
     keyboardLetter = e.key;
-    if (keyboardLetter === "Escape") {
-      $page.toggleClass('real');
-    } else if (keyboardLetter === "t") {
-      $('#alt-theme').prop('disabled', !$('#alt-theme').prop('disabled')); //toggle theme
+    switch(keyboardLetter) {
+      case "Escape":
+        $page.toggleClass('real');
+        break;
+      case "Control":
+        $('#alt-theme').prop('disabled', !$('#alt-theme').prop('disabled')); //toggle theme
+        break;
+      case "a":
+        openSection("about");
+        break;
+      case "p":
+        openSection("projects");
+        break;
+      case "s":
+        openSection("socials")
+        break;
+      case "c":
+        openSection("contact");
+        break;
     }
   });
 
   //menu click events
-  $('.menu-toggle').click(function () {
+  $('.menu-toggle').click(function() {
     $page.toggleClass("real");
   })
   //click outside of menu
-  $('.content').click(function () {
+  $('.content').click(function() {
     $page.removeClass("real");
   })
 
   //card button click
-  $(".unpressed").click(function () {
-    $(this).toggleClass("pressed").toggleClass("unpressed");
-    expandSection($(this));
+  $(".unpressed").click(function() {
+    //get object name and open section
+    var section = $(this).attr('id');
+    openSection(section);
   });
 
   //expand sections
-  function expandSection(obj) {
-    var section = $(obj).attr('id');
+  function openSection(section) {
     switch (section) {
       case "about":
+        $("#about").toggleClass("pressed").toggleClass("unpressed");
         $about.fadeToggle(1000);
         break;
       case "projects":
+        $("#projects").toggleClass("pressed").toggleClass("unpressed");
         $projects.fadeToggle(1000);
         break;
       case "support":
@@ -63,17 +79,18 @@ $(document).ready(() => {
         $jobs.fadeToggle(1000);
         break;
       case "socials":
+        $("#socials").toggleClass("pressed").toggleClass("unpressed");
         $socials.fadeToggle(1000);
         break;
       case "contact":
+        $("#contact").toggleClass("pressed").toggleClass("unpressed");
         $contact.fadeToggle(1000);
         break;
     }
-  };
+  }
 
   //form validation
   validateForm();
-
   function validateForm() {
     'use strict';
     window.addEventListener('load', function () {
